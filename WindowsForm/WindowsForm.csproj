@@ -52,6 +52,12 @@
     <Compile Include="QuanLyBanHang.Designer.cs">
       <DependentUpon>QuanLyBanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyQuanNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyQuanNet.Designer.cs">
+      <DependentUpon>QuanLyQuanNet.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLySinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </Compile>
     <EmbeddedResource Include="QuanLyBanHang.resx">
       <DependentUpon>QuanLyBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyQuanNet.resx">
+      <DependentUpon>QuanLyQuanNet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuanLySinhVien.resx">
       <DependentUpon>QuanLySinhVien.cs</DependentUpon>

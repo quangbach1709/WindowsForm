@@ -16,7 +16,7 @@ namespace WindowsForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuanLyBanHang());
+            Application.Run(new QuanLyTruyenTranh());
         }
     }
 }
